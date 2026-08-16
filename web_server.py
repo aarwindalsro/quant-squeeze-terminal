@@ -202,7 +202,7 @@ def get_3d_gamma(spot):
         z_matrix.append(row)
     return {"strikes": [round(s, 1) for s in strikes], "expirations": expirations, "matrix": z_matrix}
 
-@app.get("/")
+@app.get("/google8123fcf904bd2735.html", response_class=PlainTextResponse)
 async def get_dashboard():
     return HTMLResponse(content=HTML_CONTENT)
 
